@@ -6,24 +6,20 @@ body {
 
 .container {
 	background: #fff;
-	width: 400px;
+	width: 800px;
+	height: 500px;
 	max-width: 100%;
 	box-sizing: border-box;
 	padding: 25px;
 	margin: 8% auto 0;
 	position: relative;
 	z-index: 1;
-	
 }
-mb-3 {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    margin: 0;
-}
-input {
-    width: 100%;
-    padding: 8px auto auto 35px;
-    height: 35px;
-    box-sizing: border-box;
-    outline: none;
-}
+
+textarea {
+	width: 300px;
+	height: 150px;
+  }
+
+
+  
