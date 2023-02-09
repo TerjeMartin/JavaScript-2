@@ -1,95 +1,85 @@
-/* body {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14px;
-	background: #f2f2f2;
+body {
+	font-family: sans-serif;	
+	background-image: url("/727.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
 }
+
 
 .container {
-	background: #fff;
-	width: 400px;
-	max-width: 100%;
-	box-sizing: border-box;
-	padding: 25px;
-	margin: 8% auto 0;
-	position: relative;
-	z-index: 1;
-	
+	width: 800px;
+	margin:7% auto;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 17px #333;
+    text-align: center;
 }
-mb-3 {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    margin: 0;
-}
-input {
-    width: 100%;
-    padding: 8px auto auto 35px;
-    height: 35px;
-    box-sizing: border-box;
-    outline: none;
-} */
 
-body {
-	align-items: center;
-	background-color: white;
-	display: flex;
-	justify-content: center;
-	height: 100vh;
-  }
-  
-  .form {
-	background-color: #303245;
-	border-radius: 20px;
-	box-sizing: border-box;
-	height: 500px;
-	padding: 20px;
-	width: 320px;
-  }
-
-  .title {
-	color: black;
-	font-family: sans-serif;
-	font-size: 26px;
-	font-weight: 600;
-	margin-top: 50px;
-  }
-  
- 
-  .form-control {
-	background-color: lightgrey;
-	border-radius: 12px;
-	border: 0;
-	box-sizing: border-box;
-	color: #eee;
-	font-size: 18px;
-	height: 100%;
-	outline: 0;
-	padding: 4px 20px 0;
-	width: 100%;
-  }
-
-  .mb-3 {
-	background-color: grey;
-	border-radius: 12px;
-	border: 0;
-	box-sizing: border-box;
-	color: #eee;
-	font-size: 18px;
-	height: 100%;
-	outline: 0;
-	padding: 4px 20px 0;
-	width: 100%;
-  }
-
-  .btn {
-	background-color: #08d;
-	border-radius: 12px;
-	border: 0;
-	box-sizing: border-box;
-	color: #eee;
-	cursor: pointer;
-	font-size: 18px;
-	height: 50px;
-	margin-top: 38px;
+.title {
 	text-align: center;
-	width: 100%;
-  }
+	padding-top: 75px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.form-label {
+	color: #333;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+
+.form-control {
+	width: 300px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 20px;
+    padding: 20px;
+}
+
+.btn {
+	padding-left: 0;
+	background-color: #83acf1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 70px;
+    border-radius: 18%;
+    font-size: 20px;
+}
+
+.btn:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799d4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
