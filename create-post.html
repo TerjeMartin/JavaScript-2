@@ -1,61 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create a new post</title>
-    <link rel="stylesheet" href="./css/posts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Form CSS/login.css">
   </head>
+  
   <body>
+  
+    <h1 class="createPostHeading ">Create A Post</h1>
+  
     <form class="container" id="form">
       <div class="mb-3">
         <label class="form-label">Title</label>
-        <input
-          id="title"
-          type="text"
-          class="form-control"
-          aria-describedby="emailHelp"
-        />
+        <input id="title" type="text" class="form-control" aria-describedby="emailHelp" />
       </div>
-
+  
       <div class="mb-3">
         <label class="form-label">Body</label>
-        <textarea style="width:300px; height:150px;"
-          id="body"
-          class="form-control"
-          aria-describedby="emailHelp"
-        ></textarea>
+        <textarea id="body" class="form-control" aria-describedby="emailHelp"></textarea>
       </div>
-
+  
       <div class="mb-3">
         <label class="form-label">Media</label>
-        <input
-          id="media"
-          type="text"
-          class="form-control"
-          aria-describedby="emailHelp"
-        />
+        <input id="media" type="text" class="form-control" aria-describedby="emailHelp" />
       </div>
-
+  
       <div class="mb-3">
         <label class="form-label">Tags (comma seperated)</label>
-        <input
-          id="tags"
-          type="text"
-          placeholder="influencer, education"
-          class="form-control"
-          aria-describedby="emailHelp"
-        />
+        <input id="tags" type="text" placeholder="influencer, education" class="form-control"
+          aria-describedby="emailHelp" />
       </div>
-
-      <button type="submit" class="btn btn-primary">Submit</button>
+  
+      <button type="submit" class="submitButton">Submit</button>
     </form>
-
+  
     <script src="./javascript/create-post.js"></script>
   </body>
-</html>
+  
+  </html>
